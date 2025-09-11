@@ -1,0 +1,145 @@
+{
+    "agents":[
+        {
+			"id": 1,
+			"name": "Viper",
+			"role": {
+				"role": "Controller",
+				"img": "/agents/Viper.jpg"
+			},
+			"bgAgents": "/bg-agents/bg-Viper.jpg",
+			"imgAgents": "/agents/Viper.jpg",
+			"description": "",
+			"color": {
+				"textColor": "text-[#038C36]",
+				"bgColor": "bg-[#04BC49] ",
+				"borderColor": "border border-[#01AB3F]",
+				"textGradient":"from-[#04BC49] to-[#038C36]"
+			},
+			"skill": {
+				"Q": {
+					"key": "Q",
+					"type": "CẦU CHOÁNG",
+					"img": "/skill/Viper-PoisonCloud-Q.webp",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"E": {
+					"key": "E",
+					"type": "CẦU HÓA CHẤT",
+					"img": "/skill/Viper-ToxicScreen-E.webp",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"C": {
+					"key": "C",
+					"type": "CẦU HÓA CHẤT",
+					"img": "/skill/Viper-SnakeBite-C.webp",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"X": {
+					"key": "X",
+					"type": "CẦU HÓA CHẤT",
+					"img": "/skill/Viper-ViperPit-X.webp",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				}
+			}
+		},
+        {
+			"id": 2,
+			"name": "Phoenix",
+			"role": {
+				"role": "Duelist",
+				"img": "/agents/Phoenix.jpg"
+			},
+			"bgAgents": "/bg-agents/bg-Phoenix.jpg",
+			"imgAgents": "/agents/Phoenix.jpg",
+			"description": "",
+			"color": {
+				"textColor": "text-[#C3883B] ",
+				"bgColor": "bg-[#EDAA44] ",
+				"borderColor": "border border-[#DB9D40]",
+				"textGradient": "from-[#EDAA44] to-[#C3883B]"
+			},
+			"skill": {
+				"Q": {
+					"key": "Q",
+					"type": "CẦU CHOÁNG",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"E": {
+					"key": "E",
+					"type": "CẦU HÓA CHẤT",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"C": {
+					"key": "C",
+					"type": "CẦU HÓA CHẤT",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"X": {
+					"key": "X",
+					"type": "CẦU HÓA CHẤT",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				}
+			}
+		},
+		{
+			"id": 3,
+			"name": "Omen",
+			"role": {
+				"role": "Controller",
+				"img": "/agents/Omen.jpg"
+			},
+			"bgAgents": "/bg-agents/bg-Omen.jpg",
+			"imgAgents": "/agents/Omen.jpg",
+			"description": "",
+			"color": {
+				"textColor": "text-[#8478B4] ",
+				"bgColor": "bg-[#BBB1E7] ",
+				"borderColor": "border border-[#826DFF]",
+				"textGradient": "from-[#BBB1E7] to-[#8478B4]"
+			},
+			"skill": {
+				"Q": {
+					"key": "Q",
+					"type": "CẦU CHOÁNG",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"E": {
+					"key": "E",
+					"type": "CẦU HÓA CHẤT",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"C": {
+					"key": "C",
+					"type": "CẦU HÓA CHẤT",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				},
+				"X": {
+					"key": "X",
+					"type": "CẦU HÓA CHẤT",
+					"img": "",
+					"description": "TRANG BỊ 1 ngọc chói sáng, có thể quăng ra theo đường vòng cung và sẽ kích nổ sau khi quăng một thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm mù tất cả người chơi nhìn thấy ngọc này. BẮN PHỤ để ném xoáy sang phải.",
+					"link": ""
+				}
+			}
+		}
+    ]
+}
