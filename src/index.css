@@ -18,21 +18,21 @@
 }
 
 .btnView.Viper{
-    @apply relative after:absolute after:w-[calc(100%+0.9rem)] after:h-1/2 after:-left-[0.5rem] after:-top-[0.5rem] after:border after:border-[#01AB3F]/50 after:border-b-0 before:absolute before:w-[calc(100%+0.9rem)] before:h-1/2 before:-left-[0.5rem] before:-bottom-[0.5rem] before:border before:border-[#01AB3F]/50 before:border-t-0;
+    @apply relative after:absolute after:w-[calc(100%+0.9rem)] after:h-2/5 after:-left-[0.5rem] after:-top-[0.5rem] after:border after:border-[#01AB3F]/50 after:border-b-0 before:absolute before:w-[calc(100%+0.9rem)] before:h-2/5 before:-left-[0.5rem] before:-bottom-[0.5rem] before:border before:border-[#01AB3F]/50 before:border-t-0;
     button{
         @apply relative after:absolute after:top-1/2 after:-left-full after:-translate-1/2 after:-z-10 after:-skew-x-20 after:py-[2rem] after:px-[7rem] after:transition-all after:ease-in-out after:duration-300 after:bg-[#04BC49] after:size-[110%] hover:after:right-0 hover:after:left-1/2
     }
 }
 
 .btnView.Omen{
-    @apply relative after:absolute after:w-[calc(100%+0.9rem)] after:h-1/2 after:-left-[0.5rem] after:-top-[0.5rem] after:border after:border-[#826DFF]/50 after:border-b-0 before:absolute before:w-[calc(100%+0.9rem)] before:h-1/2 before:-left-[0.5rem] before:-bottom-[0.5rem] before:border before:border-[#826DFF]/50 before:border-t-0;
+    @apply relative after:absolute after:w-[calc(100%+0.9rem)] after:h-2/5 after:-left-[0.5rem] after:-top-[0.5rem] after:border after:border-[#826DFF]/50 after:border-b-0 before:absolute before:w-[calc(100%+0.9rem)] before:h-2/5 before:-left-[0.5rem] before:-bottom-[0.5rem] before:border before:border-[#826DFF]/50 before:border-t-0;
     button{
         @apply relative after:absolute after:top-1/2 after:-left-full after:-translate-1/2 after:-z-10 after:-skew-x-20 after:py-[2rem] after:px-[7rem] after:transition-all after:ease-in-out after:duration-300 after:bg-[#BBB1E7] after:size-[110%] hover:after:right-0 hover:after:left-1/2
     }
 }
 
 .btnView.Phoenix{
-    @apply relative after:absolute after:w-[calc(100%+0.9rem)] after:h-1/2 after:-left-[0.5rem] after:-top-[0.5rem] after:border after:border-[#DB9D40]/50 after:border-b-0 before:absolute before:w-[calc(100%+0.9rem)] before:h-1/2 before:-left-[0.5rem] before:-bottom-[0.5rem] before:border before:border-[#DB9D40]/50 before:border-t-0;
+    @apply relative after:absolute after:w-[calc(100%+0.9rem)] after:h-2/5 after:-left-[0.5rem] after:-top-[0.5rem] after:border after:border-[#DB9D40]/50 after:border-b-0 before:absolute before:w-[calc(100%+0.9rem)] before:h-2/5 before:-left-[0.5rem] before:-bottom-[0.5rem] before:border before:border-[#DB9D40]/50 before:border-t-0;
     button{
         @apply relative after:absolute after:top-1/2 after:-left-full after:-translate-1/2 after:-z-10 after:-skew-x-20 after:py-[2rem] after:px-[7rem] after:transition-all after:ease-in-out after:duration-300 after:bg-[#EDAA44] after:size-[110%] hover:after:right-0 hover:after:left-1/2
     }
