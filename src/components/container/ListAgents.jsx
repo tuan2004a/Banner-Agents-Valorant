@@ -1,20 +1,21 @@
 //ListAgents.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import { useAgentsContext } from "../../context/AgentsContext";
 
 const ListAgents = ({ itemsData }) => {
 
-	const { setSelectAgentId, agentDetailById } = useAgentsContext();
+	const { setSelectAgentId,selectAgentId, agentDetailById } = useAgentsContext();
 
 	const handleSelectId = () => {
 		setSelectAgentId(itemsData.id);
 	}
+	
 
 	return (
 		<div onClick={handleSelectId} className="ListAgents flex flex-col items-end pr-5 mb-7 cursor-pointer">
 			<div className="relative overflow-hidden after:absolute after:w-full after:h-0.5 after:bg-[#038C36] after:z-50 after:bottom-0">
-				<div className="">
-					<img className={`${itemsData.name} absolute size-15 overflow-hidden z-10 top-1/2 -translate-x-1/2 left-1/2 w-full h-full object-top object-cover`} src={`${itemsData.imgAgents}`} alt="" />
+				<div>
+					<img className={`${itemsData.name || null} absolute size-15 overflow-hidden z-10 top-1/2 -translate-x-1/2 left-1/2 w-full h-full object-top object-cover`} src={`${itemsData.imgAgents || null}`} />
 				</div>
 
 				<div className={`${agentDetailById?.color?.textColor || []}`}>

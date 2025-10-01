@@ -11,64 +11,64 @@ const initialState = {
 
 
 export const AgentsProvider = ({ children }) => {
-    const [state, setState] = useState(initialState);
-    const [AgentsData, setAgentsData] = useState([]);
-    const [selectAgentId, setSelectAgentId] = useState(null);
-    const [agentDetailById, setAgentDetailById] =useState();
+	const [state, setState] = useState(initialState);
+	const [AgentsData, setAgentsData] = useState([]);
+	const [selectAgentId, setSelectAgentId] = useState(null);
+	const [agentDetailById, setAgentDetailById] = useState();
 
-    const fetchsAgentsRef = useRef(null);
+	const fetchsAgentsRef = useRef(null);
 
-// fetch all agents
-    const LoadAgents = useCallback(async()=>{
-        try {
-            const result = await AgentsService.fetchAllAgents();
-            setAgentsData(result);
-            return result;
-        } catch (error) {
-            console.log(error);
+	// fetch all agents
+	const LoadAgents = useCallback(async () => {
+		try {
+			const result = await AgentsService.fetchAllAgents();
+			setAgentsData(result);
+			return result;
+		} catch (error) {
+			console.log(error);
 			throw error;
-        }
-    })
+		}
+	});
 
-    useEffect(() => {
+	useEffect(() => {
 		if (!fetchsAgentsRef.current) {
 			fetchsAgentsRef.current = true;
 			LoadAgents();
 		}
 	}, [LoadAgents]);
 
-
-// fetch agent by id
-    const LoadAgentsById = useCallback(async(id)=>{
-        try {
-            const resultById = await AgentsService.fetchAgentsById(id);
-            setAgentDetailById(resultById);
-            return resultById;
-        } catch (error) {
-            console.log(error);
+	// fetch agent by id
+	const LoadAgentsById = useCallback(async (id) => {
+		try {
+			const resultById = await AgentsService.fetchAgentsById(id);
+			setAgentDetailById(resultById);
+			return resultById;
+		} catch (error) {
+			console.log(error);
 			throw error;
-        }
-    })
+		}
+	});
 
-// call api when selectAgentId change
-    useEffect(() => {
+	// call api when selectAgentId change
+	useEffect(() => {
 		if (selectAgentId) {
 			LoadAgentsById(selectAgentId);
 		}
 	}, [selectAgentId]);
 
 
-    const contextValue = useMemo(
+	const contextValue = useMemo(
 		() => ({
 			AgentsData,
 			agentDetailById,
 			setSelectAgentId,
 			LoadAgents,
+			selectAgentId,
 		}),
 		[AgentsData, selectAgentId, LoadAgents, agentDetailById]
 	);
 
-    return <AgentsContext.Provider value={contextValue}>{children}</AgentsContext.Provider>;
+	return <AgentsContext.Provider value={contextValue}>{children}</AgentsContext.Provider>;
 };
 
 export const useAgentsContext = () => {

@@ -5,7 +5,6 @@ class AgentsService{
     static async getAllAgents(){
         try {
             const res = await axios.get(`${API_URL}/agents`);
-            // console.log(res, "dữ liệu service");
             return res;
         } catch (error) {
             console.log(error);

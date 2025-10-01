@@ -5,7 +5,6 @@ const AgentsSSlices = {
     fetchAllAgents: async() => {
         try {
             const data = await AgentsService.getAllAgents();
-            // console.log(data);
             return data;
         } catch (error) {
             console.log(error);

@@ -1,6 +1,6 @@
 //index.jsx
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Agents from "../components/container/Agents";
 import InforAgents from "../components/container/InforAgents";
 import ListAgents from "../components/container/ListAgents";
@@ -11,14 +11,19 @@ import { AgentsProvider, useAgentsContext } from "../context/AgentsContext";
 
 const IndexContext = () => {
 
-	const { AgentsData, agentDetailById } = useAgentsContext();
+	const { AgentsData, agentDetailById, setSelectAgentId, selectAgentId } = useAgentsContext();
 	const ListAgentsData = AgentsData.data || [];
-	console.log(agentDetailById);
+
+	useEffect(()=>{
+		if (ListAgentsData.length > 0 && !selectAgentId) {
+			setSelectAgentId(ListAgentsData[0].id);
+		}
+	})
 
 	return (
 		<div>
 			{/* <div style={{background:`no-repeat top center / 100% 100%`}} className="bg-[url(/bg-agents/)] w-full h-screen"> */}
-			<div className="w-full h-screen overflow-hidden cursor-default" style={{ background: `url(${agentDetailById?.bgAgents || []}) no-repeat top center / 100% 100%` }}>
+			<div className="w-full h-screen overflow-hidden cursor-default" style={{ background: `url(${agentDetailById?.bgAgents || null}) no-repeat top center / 100% 100%` }}>
 				<header className="w-full px-10 fixed top-8">
 					<NavBar />
 				</header>
