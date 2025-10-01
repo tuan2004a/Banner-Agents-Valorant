@@ -1,49 +1,49 @@
-# Valorant Agents Banner
+# 🛡️ Valorant Agents Banner
 
-Trang web này cho phép bạn xem danh sách các agents trong Valorant, bao gồm thông tin chi tiết về từng nhân vật và bộ kỹ năng (skill set) của họ.
+This website allows you to view the list of Valorant agents, including detailed information about each character and their skill set.
 
-## Tính năng
-- Xem danh sách agents Valorant
-- Xem thông tin chi tiết từng nhân vật
-- Xem bộ kỹ năng của từng agent
+## ✨ Features
+- View the list of Valorant agents
+- See detailed information for each character
+- Explore the skill set of each agent
 
-## Công nghệ sử dụng
+## ⚙️ Technologies Used
 - **Frontend:** React.js, TailwindCSS, Axios
-- **Backend:** json-server (giả lập API từ file JSON)
+- **Backend:** json-server (API mock from JSON file)
 
-## Cài đặt và chạy
+## 🚀 Installation & Usage
 
-### Yêu cầu hệ thống
+### 🖥️ System Requirements
 - Node.js >= 14
 - npm >= 6
 
-### Các bước cài đặt
+### 📦 Setup Steps
 
-1. **Clone dự án:**
+1. **Clone the repository:**
    ```bash
    git clone <repo-url>
    cd Valorant-Agents-Banner
    ```
 
-2. **Cài đặt dependencies:**
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. **Chạy backend (json-server):**
+3. **Start backend (json-server):**
    ```bash
-   npx json-server --watch src/db/db.json --port 3001
+   npm run json
    ```
 
-4. **Chạy frontend:**
+4. **Start frontend:**
    ```bash
    npm run dev
    ```
 
-5. **Truy cập website:**
+5. **Access the website:**
    - Frontend: http://localhost:5173/
    - Backend API: http://localhost:3001/
 
-## Ghi chú
-- Đảm bảo json-server luôn chạy để frontend có thể lấy dữ liệu agents.
-- Có thể tùy chỉnh dữ liệu agents trong file `src/db/db.json`.
+## 📝 Notes
+- Make sure json-server is running so the frontend can fetch agent data.
+- You can customize agent data in the `src/db/db.json` file.
