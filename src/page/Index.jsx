@@ -30,7 +30,6 @@ const IndexContext = () => {
 
 	return (
 		<div>
-			{/* <div style={{background:`no-repeat top center / 100% 100%`}} className="bg-[url(/bg-agents/)] w-full h-screen"> */}
 			<div className="w-full h-screen overflow-hidden cursor-default" style={{ background: `url(${agentDetailById?.bgAgents || null}) no-repeat top center / 100% 100%` }}>
 				<header className="w-full px-10 fixed top-8">
 					<NavBar />
@@ -41,7 +40,7 @@ const IndexContext = () => {
 					</section>
 					<section
 						onMouseMove={handleMouseMove}
-						className="w-[calc(53%-6.66px)] max-h-[865px] self-end"
+						className="w-[calc(53%-6.66px)] max-h-216.25 self-end"
 						style={{
 							transform: `translate(${offset.x}px, ${offset.y}px)`,
 							transition: "transform 0.1s ease-out",
