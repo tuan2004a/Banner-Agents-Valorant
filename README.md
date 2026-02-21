@@ -100,7 +100,7 @@ src/
 
 
 
-https://github.com/user-attachments/assets/d1468cbf-3e93-41a2-a682-36c058d6c6af
+https://github.com/user-attachments/assets/7faa1063-fda8-49e7-a072-2cfa57aa09fd
 
 ---
 
@@ -133,6 +133,6 @@ Dự án này được phát hành dưới MIT License. Bạn có thể tự do 
 
 <div align="center">
 
-**✨ Được tạo nên với niềm đam mê dành cho cộng đồng Honkai: Star Rail ✨**
+**✨ Được tạo nên với niềm đam mê dành cho cộng đồng Valorant ✨**
 
 </div> 
