@@ -1,6 +1,7 @@
 # Valorant Agents Banner
 
-Trang web này cho phép bạn xem danh sách các đặc vụ trong Valorant, bao gồm thông tin chi tiết về từng nhân vật và bộ kỹ năng của họ.
+**Trang web này cho phép bạn xem danh sách các đặc vụ trong Valorant, bao gồm thông tin chi tiết về từng nhân vật và bộ kỹ năng của họ.
+
 ---
 
 ## Mục lục
